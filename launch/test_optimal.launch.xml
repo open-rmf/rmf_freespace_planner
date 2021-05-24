@@ -1,0 +1,11 @@
+<?xml version='1.0' ?>
+
+<launch>
+
+  <node pkg="rmf_freespace_planner" exec="test_freespace_planner" output="both" args="50">
+  </node>
+
+  <node pkg="rviz2" exec="rviz2" output="both" args="-d $(find-pkg-share rmf_freespace_planner)/launch/rviz_config.rviz">
+  </node>
+
+</launch>

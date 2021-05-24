@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rmf_freespace_planner</name>
+  <version>0.1.0</version>
+  <description>Freespace local planner for RMF</description>
+  <maintainer email="shivesh@openrobotics.org">Shivesh</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>nav_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>rmf_traffic</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ros2run</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
